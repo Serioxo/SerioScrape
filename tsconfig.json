@@ -19,7 +19,7 @@
     "paths": {
       "@/*": ["./*"],
       "@sozialhelden/ietf-language-tags": [
-        "../node_modules/@sozialhelden/ietf-language-tags/dist/cjs"
+        "node_modules/@sozialhelden/ietf-language-tags/dist/cjs"
       ]
     },
     "types": ["vite/client", "vite-plugin-pwa/vanillajs"]
