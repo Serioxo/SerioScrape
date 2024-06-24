@@ -28,10 +28,10 @@ interface Config {
 
 export interface RuntimeConfig {
   APP_VERSION: string;
-  GITHUB_LINK: "https://github.com/Serioxo";
-  DISCORD_LINK: "https://discord.gg/hJ4X8pqj";
+  GITHUB_LINK: string;
+  DISCORD_LINK: string;
   DMCA_EMAIL: string | null;
-  TWITTER_LINK: "https://x.com/RealSeriouwu";
+  TWITTER_LINK: string;
   TMDB_READ_API_KEY: string | null;
   NORMAL_ROUTER: boolean;
   PROXY_URLS: string[];

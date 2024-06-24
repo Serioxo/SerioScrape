@@ -140,7 +140,8 @@
           "How was your day?",
           "My bad the site never works...",
           "Isn't Serio Stream just the best?",
-          ">ᴗ<"
+          ">ᴗ<",
+          "Hi :3"
         ]
       },
       "empty": {
@@ -162,21 +163,21 @@
         "extra": ["Have you seen Blazing Saddles?"],
         "extra": ["Welcome to Serio Stream!"],
         "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
-        "extra": ["Viva la Serio Stream!"]
+        "extra": ["Hi :3"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
         "extra": ["Can't go wrong with Friends"],
         "extra": ["I hear The Expanse is popular"],
         "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
-        "extra": ["Viva la Serio Stream!"]
+        "extra": ["Good morning! :3"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
         "extra": ["Go smoke and watch The Simpsons!"],
         "extra": ["(づ ᴗ _ᴗ)づ♡"],
-        "extra": ["Viva la Serio Stream!"]
+        "extra": ["Hi (But late night) :3 "]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
