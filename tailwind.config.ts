@@ -1,9 +1,6 @@
 import { allThemes, defaultTheme, safeThemeList } from "./themes";
 import type { Config } from "tailwindcss";
 import plugin from "tailwindcss/plugin";
-import { injectSpeedInsights } from '@vercel/speed-insights';
-
-injectSpeedInsights();
 
 
 
