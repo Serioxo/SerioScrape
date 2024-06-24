@@ -1,20 +1,28 @@
 {
   "about": {
-    "description": "SerioScrape is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. jakubmigac.net runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
+    "description": "sudo-flix is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. sudo-flix.lol runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
     "faqTitle": "Common questions",
     "q1": {
-      "body": "SerioScrape does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by SerioScrape, everything is through this searching mechanism.",
+      "body": "sudo-flix does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by sudo-flix, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "It's not possible to request a show or movie, SerioScrape does not manage any content. All content is viewed through sources on the internet.",
+      "body": "It's not possible to request a show or movie, sudo-flix does not manage any content. All content is viewed through sources on the internet.",
       "title": "Where can I request a show or movie?"
     },
     "q3": {
       "body": "Our search results are powered by The Movie Database (TMDB) and display regardless of whether our sources actually have the content.",
       "title": "The search results display the show or movie, why can't I play it?"
     },
-    "title": "About SerioScrape"
+    "q4": {
+      "body": "All data is synced to the sudo-backend which is different than the community backend and is independently hosted by me, anyone is free to use this as well.",
+      "title": "What about my data and stuff?"
+    },
+    "q5": {
+      "body": "Well sudo-flix has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
+      "title": "How can I find out more?"
+    },
+    "title": "About sudo-flix (^▽^)"
   },
   "actions": {
     "copied": "Copied",
@@ -82,17 +90,18 @@
   "footer": {
     "legal": {
       "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
-      "disclaimerText": "Please note: SerioScrape does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimerText": "Please note: sudo-flix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
       "discord": "Discord",
       "dmca": "DMCA",
-      "github": "GitHub"
+      "github": "GitHub",
+      "twitter": "Twitter"
     },
     "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
   },
   "global": {
-    "name": "Serio Scrape",
+    "name": "sudo-flix",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
@@ -100,7 +109,7 @@
       "support": "Support",
       "login": "Login",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - Serio Scrape",
+      "pagetitle": "{{title}} - sudo-flix",
       "register": "Register",
       "settings": "Settings"
     }
@@ -126,11 +135,11 @@
           "What are you in the mood for?",
           "Should we delete your browser history?",
           "What do you want to stream?",
-          "Serio Scrape is the best site ever!",
+          "Sudo-Flix is the best site ever!",
           "What's on your watchlist today?",
           "How was your day?",
           "My bad the site never works...",
-          "Isn't Serio Scrape just the best?",
+          "Isn't sudo-flix just the best?",
           ">ᴗ<"
         ]
       },
@@ -150,24 +159,24 @@
     "titles": {
       "day": {
         "default": "What would you like to watch this afternoon?",
-        "extra": ["Have you watched One Piece?"],
-        "extra": ["Welcome to Serio Scrape!"],
+        "extra": ["Have you seen Blazing Saddles?"],
+        "extra": ["Welcome to Sudo-Flix!"],
         "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
-        "extra": ["Hi :3"]
+        "extra": ["Viva la sudo-flix!"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
-        "extra": ["Back again already? ;)"],
-        "extra": [""],
+        "extra": ["Can't go wrong with Friends"],
+        "extra": ["I hear The Expanse is popular"],
         "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
-        "extra": ["Good Morning! What are we watching?"]
+        "extra": ["Viva la sudo-flix!"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
-        "extra": ["Feeling like watching a horror film tonight?"],
-        "extra": ["ooooo what are we watching tonight?"],
+        "extra": ["Rick & Morty is great with friends!"],
+        "extra": ["Go smoke and watch The Simpsons!"],
         "extra": ["(づ ᴗ _ᴗ)づ♡"],
-        "extra": ["Hiiiiiiii ♡"]
+        "extra": ["Viva la sudo-flix!"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
@@ -210,7 +219,7 @@
   "downtimeNotice": {
     "badge": "Issues",
     "goHome": "Go home",
-    "message": "jakubmigac.net is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
+    "message": "sudo-flix.lol is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
     "timeFrame": "<bold>March 31th 11:00 PM - 5:00 AM EST</bold>",
     "title": "Provider issues"
   },
@@ -274,7 +283,7 @@
           "title": "Custom proxy"
         }
       },
-      "title": "Let's get you setup with SerioScrape 🥳"
+      "title": "Let's get you setup with sudo-flix 🥳"
     }
   },
   "overlays": {
@@ -290,11 +299,11 @@
     },
     "menus": {
       "downloads": {
-        "disclaimer": "Downloads are taken directly from the provider. SerioScrape does not have control over how the downloads are provided.",
+        "disclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.",
         "copyHlsPlaylist": "Copy HLS playlist link",
         "downloadSubtitle": "Download current subtitle",
         "downloadVideo": "Download video",
-        "hlsDisclaimer": "Downloads are taken directly from the provider. SerioScrape does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
+        "hlsDisclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
         "onAndroid": {
           "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
           "shortTitle": "Download / Android",
@@ -442,7 +451,7 @@
         "homeButton": "Go home",
         "enableExtension": "Enable extension",
         "title": "Please enable the extension",
-        "text": "You've installed the SerioScrape extension. To start using it, you need to enable the extension for this site."
+        "text": "You've installed the sudo-flix extension. To start using it, you need to enable the extension for this site."
       }
     },
     "time": {
@@ -452,7 +461,7 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please prove your humanity by completing the quick challenge, this is to keep SerioScrape safe.",
+      "description": "Please prove your humanity by completing the quick challenge, this is to keep sudo-flix safe.",
       "error": "Failed to verify your humanity! Please try again.",
       "title": "Are You a Robot 🤖?",
       "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
@@ -460,9 +469,9 @@
   },
   "support": {
     "title": "Support",
-    "text": "SerioScrape is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
+    "text": "sudo-flix is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
     "q1": {
-      "body": "Well, you can join the official <0>SerioScrape discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "body": "Well, you can join the official <0>sudo-flix discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
       "title": "Where can I get help?"
     },
     "q2": {
@@ -472,7 +481,7 @@
   },
   "screens": {
     "dmca": {
-      "text": "Welcome to SerioScrape's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
+      "text": "Welcome to sudo-flix's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
       "title": "DMCA :("
     },
     "loadingApp": "Loading application",
@@ -499,7 +508,7 @@
       },
       "admin": {
         "title": "Admin panel",
-        "text": "Utilize tools made for testing SerioScrape's condition.",
+        "text": "Utilize tools made for testing sudo-flix's condition.",
         "button": "Check it out"
       },
       "actions": {

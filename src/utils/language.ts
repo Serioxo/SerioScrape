@@ -1,7 +1,7 @@
 import countryLanguages, { LanguageObj } from "@ladjs/country-language";
 import { getTag } from "@sozialhelden/ietf-language-tags";
 
-const languageOrder = ["en"];
+const languageOrder = ["en", "hi", "fr", "de", "nl", "pt"];
 
 // mapping of language code to country code.
 // multiple mappings can exist, since languages are spoken in multiple countries.
